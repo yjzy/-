@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="iconsix" unicode="&#58889;" d="M512-197.513353l-3.395872 1.932757L81.157735 51.234292 81.157735 548.747645 512.018063 797.513353l430.860328-248.765708 0-497.513353L512-197.513353zM94.705098 59.055636l417.294902-240.944364 417.331028 240.944364L929.331028 540.926301 512.018063 781.870665 94.705098 540.926301 94.705098 59.055636z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="shang" unicode="&#59281;" d="M512.768 663.552l502.784-502.784c13.312-13.312 13.312-33.792 0-47.104s-33.792-13.312-47.104 0L512.768 570.368 57.088 114.688c-13.312-13.312-33.792-13.312-47.104 0s-13.312 33.792 0 47.104l502.784 501.76z"  horiz-adv-x="1025" />
+
+    
+
+
+  </font>
+</defs></svg>

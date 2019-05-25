@@ -1,0 +1,89 @@
+body{
+	position: relative;
+}
+
+.zhengti{
+	width: 600px;
+	height: 470px;
+	cursor: pointer;
+	/*position: relative;*/
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: -300px;
+	border-radius: 5px;
+	z-index: 900;
+}
+.left{
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 470px;
+	background-size: 100%;
+}
+.left .bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.8;
+}
+.left .bg img{
+	background-size: 100%;
+	width: 240px;
+	height: 470px;
+}
+.aa{
+	position: absolute;
+	display: block;
+	width: 35px;
+	height: 35px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+.logo{
+	float: left;	
+}
+.logo img{
+	z-index: 1000000;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: 88px;
+	height: 106px;
+	margin: 183px 70px;
+}
+.right{
+	position: relative;
+	width: 360px;
+	height: 470px;
+	float: right;
+	/*background-color: skyblue;*/
+}
+.r{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.r img{
+	width: 55px;
+	height: 55px;
+}
+.center{
+	width: 248px;
+	height: 270px;
+	margin: 95px 82px 107px 57px;
+}
+.center h3{
+	text-align: center;
+}
+.pic img{
+	width: 150px;
+	height: 150px;
+	margin-left: 50px;
+	margin-bottom: 23px;
+}
+.footer span{
+	color:#999999; 
+	font-size:12px;
+}

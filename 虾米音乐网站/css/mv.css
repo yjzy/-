@@ -1,0 +1,39 @@
+.mv{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mv ul {
+    width: 1300px;
+}
+.mv ul li {
+    float: left;
+    width: 216px;
+    height: 176px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 30px;
+    margin-bottom: 26px;
+} 
+.mv ul li img {
+    float: left;
+    height: 120px;
+    width: 216px;
+}
+.mv li p {
+    float: left;
+}
+
+.mv li span {
+    float: left;
+    width: 216px;
+    margin-top: 10px;
+}
+.mv li p a ,
+.mv li span a{
+    font-size: 12px;
+    color: #4A4A4A;
+}
+.mv li a:hover{
+    color: red;
+}

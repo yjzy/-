@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index4.css">
+    <script src="../js/jquery-1.12.2.js"></script>
+    <script src="../js/index4.js"></script>
+    
+</head>
+<body>
+    <div class="gap">
+        <div class="w">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="logo">
+                            <a href="../j/mi/indexwzj.html" title="虾米音乐网(xiami.com) - 高品质音乐 发现 分享"></a>
+                        </td>
+                        <td class="nav">
+                            <a href="#" class="left">发现音乐</a>
+                            <a href="#" class="left">我的音乐</a>
+                        </td>
+                        <td class="subnav">
+                            <a href="#">歌单</a>
+                            <a href="#">电台</a>
+                            <a href="#" class="yyr">音乐人</a>
+                            <a href="#" class="khd">客户端</a>
+                        </td>
+                        <td class="search">
+                            <div class="container">
+                                <input type="text" class="ssk" value="音乐搜索,找人...">
+                                <input type="submit" class="an" value="">
+                            </div> 
+                        </td>
+                        <td class="login">
+                            <a href="#">免费注册</a>
+                            <a href="#">立即登录</a>
+                        </td>
+                    </tr>  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="all">
+        <div class="w">
+            <!-- 左边大盒子 -->
+            <div class="bigBox_left">
+                <div class="left_nav" id="left_nav">
+                    <a href="#" class="a1"><b class="b1"></b>发现</a>
+                    <a href="#"><b class="b2"></b>排行榜</a>
+                    <a href="#"><b class="b3"></b>音乐人企划</a>
+                    <a href="#"><b class="b4"></b>音乐人</a>
+                    <a href="#"><b class="b5"></b>歌曲</a>
+                    <a href="#"><b class="b6"></b>专辑<sup>无损</sup></a>
+                </div>
+                <div class="left_genre" id="left_genre">
+                    <a href="#"><b></b>流行</a>
+                    <a href="#"><b></b>摇滚</a>
+                    <a href="#"><b></b>民谣</a>
+                    <a href="#"><b></b>电子</a>
+                    <a href="#"><b></b>节奏布鲁斯</a>
+                    <a href="#"><b></b>爵士</a>
+                    <a href="#"><b></b>轻音乐</a>
+                    <a href="#"><b></b>嘻哈(说唱)</a>
+                    <a href="#"><b></b>动漫</a>
+                    <a href="#"><b></b>布鲁斯</a>
+                    <a href="#"><b></b>金属</a>
+                    <a href="#"><b></b>朋克</a>
+                    <a href="#"><b></b>世界音乐</a>
+                    <a href="#"><b></b>新世纪</a>
+                    <a href="#"><b></b>舞台/银幕/娱乐</a>
+                    <a href="#"><b></b>乡村</a>
+                    <a href="#"><b></b>雷鬼</a>
+                    <a href="#"><b></b>古典</a>
+                    <a href="#"><b></b>唱作人</a>
+                    <a href="#"><b></b>拉丁</a>
+                    <a href="#"><b></b>中国特色</a>
+                    <a href="#"><b></b>实验</a>
+                    <a href="#"><b></b>儿童</a>
+                    <a href="#"><b></b>有声书</a>
+                </div>
+            </div>
+
+
+            <!-- 右边大盒子 -->
+            <div class="bigBox_right">
+                <!-- 轮播图 -->
+                    <div class="slider" id="slider">
+                            <div class="slider_img" id="imgBox">
+                                <div class="item" style="display: none;">
+                                    <a href="###" target="_blank" title="寻光计划Ⅱ---SARAH《难》MV">
+                                        <img src="../images/15246300997366.jpg" alt="寻光计划Ⅱ---SARAH《难》MV">
+                                    </a>
+                                </div>
+                                <div class="item" style="display: none;">
+                                    <a href="###" target="_blank" title="寻光计划II KWORLD">
+                                        <img src="../images/15203055201435.jpeg" alt="寻光计划II KWORLD">
+                                    </a>
+                                </div>
+                                <div class="item" style="display: none;">
+                                    <a href="###" target="_blank" title="寻光计划X吴莫愁 第二季">
+                                        <img src="../images/15129608888666.jpg" alt="寻光计划X吴莫愁 第二季">
+                                    </a>
+                                </div>
+                                <div class="item" style="display: none;">
+                                    <a href="###" target="_blank" title="入驻虾米音乐人">
+                                        <img src="../images/14954442276495.jpg" alt="入驻虾米音乐人">
+                                    </a>
+                                </div>
+                                <div class="item" style="display: none;">
+                                    <a href="###" target="_blank" title="方拾贰 单曲 《94》">
+                                        <img src="../images/15127086354105.jpg" alt="方拾贰 单曲 《94》">
+                                    </a>
+                                </div>
+                                <div class="item" style="display: block;">
+                                    <a href="###" target="_blank" title="寻光计划 Shawee 单曲《追寻自己》">
+                                        <img src="../images/15136594123149.jpg" alt="寻光计划 Shawee 单曲《追寻自己》">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider_list" id="diansBox">
+                                <a href="###" class="current"><img src="../images/15246301044887.jpg"></a>
+                                <a href="###" class=""><img src="../images/15203055318147.jpeg"></a>
+                                <a href="###" class=""><img src="../images/15129608948341.jpg"></a>
+                                <a href="###" class=""><img src="../images/14954443191777.jpg"></a>
+                                <a href="###" class=""><img src="../images/15127086491410.jpg"></a>
+                                <a href="###" class=""><img src="../images/15136594265663.jpg"></a>
+                            </div>
+                            <div class="slider_nav">
+                                <a class="prev" id="prev" href="javascript:void(0)"></a>
+                                <a class="next" id="next" href="javascript:void(0)"></a>
+                            </div>
+                        </div>
+                <!-- 右下大盒子 -->
+                    <div class="main_wrapper">
+                        <!-- 左边小盒子 -->
+                        <div class="main_left">
+                            <!-- 热门专辑 -->
+                            <div class="albums_wrapper">
+                                <div class="title">
+                                        <h3>热门专辑</h3>
+                                        <div class="title_extra">
+                                            <a href="###" class="current">首发</a>
+                                            <a href="###">寻光计划</a>
+                                        </div>
+                                        <a class="more" href="#" title="更多音乐人热门专辑">更多<b></b></a>
+                                </div>
+                                <div class="album_list index_a" style="display:block;" >
+                                    <div class="album">
+                                        <div class="image">
+                                                <a href="#">
+                                                    <img src="../images/9095581527909559.jpg@!c-185-185">
+                                                    <b class="toplay" style="display: none;"></b>
+                                                    <dl id="image_dl" style="display: none;">
+                                                        <dt>
+                                                            <b class="icon toheart"></b>
+                                                            <b class="icon todropmenu"></b>
+                                                        </dt>
+                                                        <dd style="display: none;">
+                                                            <ul>
+                                                                <li><b class="icon tofavourite"></b>收藏</li>
+                                                                <li><b class="icon tocollect"></b>添加到</li>
+                                                                <li><b class="icon toshare"></b>分享到</li>
+                                                            </ul>
+                                                        </dd>
+                                                    </dl>
+                                                </a>
+                                        </div>
+                                        <div class="info">
+                                            <p><strong><a href="#" title="往昔">往昔</a></strong></p>
+                                            <p><a href="#" >秋天的虫子</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                            <div class="image">
+                                                    <a href="#">
+                                                        <img src="../images/5b10e400ded0e_6905892_1527833600.jpg@!c-185-185">
+                                                        <b class="toplay" style="display: none;"></b>
+                                                        <dl id="image_dl" style="display: none;">
+                                                            <dt>
+                                                                <b class="icon toheart"></b>
+                                                                <b class="icon todropmenu"></b>
+                                                            </dt>
+                                                            <dd style="display: none;">
+                                                                <ul>
+                                                                    <li><b class="icon tofavourite"></b>收藏</li>
+                                                                    <li><b class="icon tocollect"></b>添加到</li>
+                                                                    <li><b class="icon toshare"></b>分享到</li>
+                                                                </ul>
+                                                            </dd>
+                                                        </dl>
+                                                    </a>
+                                            </div>
+                                            <div class="info">
+                                                <p><strong><a href="#" title="家">家</a></strong></p>
+                                                <p><a href="#" >洪启</a></p>
+                                            </div>
+                                    </div>
+                                    <div class="album">
+                                            <div class="image">
+                                                    <a href="#">
+                                                        <img src="../images/21037238841527684337.jpg@!c-185-185">
+                                                        <b class="toplay" style="display: none;"></b>
+                                                        <dl id="image_dl" style="display: none;">
+                                                            <dt>
+                                                                <b class="icon toheart"></b>
+                                                                <b class="icon todropmenu"></b>
+                                                            </dt>
+                                                            <dd style="display: none;">
+                                                                <ul>
+                                                                    <li><b class="icon tofavourite"></b>收藏</li>
+                                                                    <li><b class="icon tocollect"></b>添加到</li>
+                                                                    <li><b class="icon toshare"></b>分享到</li>
+                                                                </ul>
+                                                            </dd>
+                                                        </dl>
+                                                    </a>
+                                            </div>
+                                            <div class="info">
+                                                <p><strong><a href="#" title="永嘉">永嘉</a></strong></p>
+                                                <p><a href="#" >南丁博格</a></p>
+                                            </div>
+                                    </div>
+                                    <div class="album">
+                                            <div class="image">
+                                                    <a href="#">
+                                                        <img src="../images/1649741527164974.jpg@!c-185-185">
+                                                        <b class="toplay" style="display: none;"></b>
+                                                        <dl id="image_dl" style="display: none;">
+                                                            <dt>
+                                                                <b class="icon toheart"></b>
+                                                                <b class="icon todropmenu"></b>
+                                                            </dt>
+                                                            <dd style="display: none;">
+                                                                <ul>
+                                                                    <li><b class="icon tofavourite"></b>收藏</li>
+                                                                    <li><b class="icon tocollect"></b>添加到</li>
+                                                                    <li><b class="icon toshare"></b>分享到</li>
+                                                                </ul>
+                                                            </dd>
+                                                        </dl>
+                                                    </a>
+                                            </div>
+                                            <div class="info">
+                                                <p><strong><a href="#" title="如一">如一</a></strong></p>
+                                                <p><a href="#" >自画像</a></p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="album_list index_b" style="display:none;">
+                                        <div class="album">
+                                            <div class="image">
+                                                    <a href="#">
+                                                        <img src="../images/5237927551426732043.jpg@!c-185-185">
+                                                        <b class="toplay" style="display: none;"></b>
+                                                        <dl id="image_dl" style="display: none;">
+                                                            <dt>
+                                                                <b class="icon toheart"></b>
+                                                                <b class="icon todropmenu"></b>
+                                                            </dt>
+                                                            <dd style="display: none;">
+                                                                <ul>
+                                                                    <li><b class="icon tofavourite"></b>收藏</li>
+                                                                    <li><b class="icon tocollect"></b>添加到</li>
+                                                                    <li><b class="icon toshare"></b>分享到</li>
+                                                                </ul>
+                                                            </dd>
+                                                        </dl>
+                                                        <sup title="虾米音乐首发"></sup>
+                                                    </a>
+                                            </div>
+                                            <div class="info">
+                                                <p><strong><a href="#" title="完美世界">完美世界</a></strong></p>
+                                                <p><a href="#" >金玟岐</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="album">
+                                                <div class="image">
+                                                        <a href="#">
+                                                            <img src="../images/10219099111425887598.png@!c-185-185">
+                                                            <b class="toplay" style="display: none;"></b>
+                                                            <dl id="image_dl" style="display: none;">
+                                                                <dt>
+                                                                    <b class="icon toheart"></b>
+                                                                    <b class="icon todropmenu"></b>
+                                                                </dt>
+                                                                <dd style="display: none;">
+                                                                    <ul>
+                                                                        <li><b class="icon tofavourite"></b>收藏</li>
+                                                                        <li><b class="icon tocollect"></b>添加到</li>
+                                                                        <li><b class="icon toshare"></b>分享到</li>
+                                                                    </ul>
+                                                                </dd>
+                                                            </dl>
+                                                            <sup title="虾米音乐首发"></sup>
+                                                        </a>
+                                                </div>
+                                                <div class="info">
+                                                    <p><strong><a href="#" title="自在">自在</a></strong></p>
+                                                    <p><a href="#" >卡奇社</a></p>
+                                                </div>
+                                        </div>
+                                        <div class="album">
+                                                <div class="image">
+                                                        <a href="#">
+                                                            <img src="../images/3223402961427855753.jpg@!c-185-185">
+                                                            <b class="toplay" style="display: none;"></b>
+                                                            <dl id="image_dl" style="display: none;">
+                                                                <dt>
+                                                                    <b class="icon toheart"></b>
+                                                                    <b class="icon todropmenu"></b>
+                                                                </dt>
+                                                                <dd style="display: none;">
+                                                                    <ul>
+                                                                        <li><b class="icon tofavourite"></b>收藏</li>
+                                                                        <li><b class="icon tocollect"></b>添加到</li>
+                                                                        <li><b class="icon toshare"></b>分享到</li>
+                                                                    </ul>
+                                                                </dd>
+                                                            </dl>
+                                                            <sup title="虾米音乐首发"></sup>
+                                                        </a>
+                                                </div>
+                                                <div class="info">
+                                                    <p><strong><a href="#" title="A GREAT BLUES">A GREAT BLUES</a></strong></p>
+                                                    <p><a href="#" >詹盼</a></p>
+                                                </div>
+                                        </div>
+                                        <div class="album">
+                                                <div class="image">
+                                                        <a href="#">
+                                                            <img src="../images/18237331431426563858.jpg@!c-185-185">
+                                                            <b class="toplay" style="display: none;"></b>
+                                                            <dl id="image_dl" style="display: none;">
+                                                                <dt>
+                                                                    <b class="icon toheart"></b>
+                                                                    <b class="icon todropmenu"></b>
+                                                                </dt>
+                                                                <dd style="display: none;">
+                                                                    <ul>
+                                                                        <li><b class="icon tofavourite"></b>收藏</li>
+                                                                        <li><b class="icon tocollect"></b>添加到</li>
+                                                                        <li><b class="icon toshare"></b>分享到</li>
+                                                                    </ul>
+                                                                </dd>
+                                                            </dl>
+                                                            <sup title="虾米音乐首发"></sup>
+                                                        </a>
+                                                </div>
+                                                <div class="info">
+                                                    <p><strong><a href="#" title="发光的海">发光的海</a></strong></p>
+                                                    <p><a href="#" >Tie yann</a></p>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!-- 热门音乐人 -->
+                            <div class="artists_wrapper">
+                                <div class="title">
+                                    <h3>热门音乐人</h3>
+                                    <a href="#" class="more">更多<b></b></a>
+                                </div>
+                                <div class="artist_list">
+                                    <div class="big_artist">
+                                        <a href="#">
+                                            <img src="../images/15399236883193.jpg@!c-330-330" alt="">
+                                            <b class="toplay hide"></b>
+                                            <p class="hide">Shawee</p>
+                                        </a>
+                                    </div>
+                                    <div class="small">
+                                        <div class="mintu">
+                                            <a href="#">
+                                                <img src="../images/14843261026301_2.jpg@!c-120-120" alt="">
+                                                <b class="toplay hide"></b>
+                                                <p class="hide">邹施如</p>
+                                            </a>
+                                        </div>
+                                        <div class="mintu">
+                                            <a href="#">
+                                                <img src="../images/15178141413096_2.jpg@!c-120-120" alt="">
+                                                <b class="toplay hide"></b>
+                                                <p class="hide">KWORLD</p>
+                                            </a>
+                                        </div>
+                                        <div class="mintu">
+                                            <a href="#">
+                                                <img src="../images/15153072964173.jpg@!c-120-120" alt="">
+                                                <b class="toplay hide"></b>
+                                                <p class="hide">祁紫檀</p>
+                                            </a>
+                                        </div>
+                                        <div class="mintu">
+                                            <a href="#">
+                                                <img src="../images/15235273822451.png@!c-120-120" alt="">
+                                                <b class="toplay hide"></b>
+                                                <p class="hide">Angulabel</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="small">
+                                            <div class="mintu">
+                                                <a href="#">
+                                                    <img src="../images/15169525703634.jpg@!c-120-120" alt="">
+                                                    <b class="toplay hide"></b>
+                                                    <p class="hide">过失</p>
+                                                </a>
+                                            </div>
+                                            <div class="mintu">
+                                                <a href="#">
+                                                    <img src="../images/15328507178347.jpg@!c-120-120" alt="">
+                                                    <b class="toplay hide"></b>
+                                                    <p class="hide">张浴盐</p>
+                                                </a>
+                                            </div>
+                                            <div class="mintu">
+                                                <a href="#">
+                                                    <img src="../images/15111079437129_2.jpg@!c-120-120" alt="">
+                                                    <b class="toplay hide"></b>
+                                                    <p class="hide">阿克江LilAkin</p>
+                                                </a>
+                                            </div>
+                                            <div class="mintu">
+                                                <a href="#">
+                                                    <img src="../images/15061472374955_2.jpg@!c-120-120" alt="">
+                                                    <b class="toplay hide"></b>
+                                                    <p class="hide">Sarah</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <!-- 音乐人企划 -->
+                            <div class="magazines_wrapper">
+                                    <div class="title">
+                                        <h3>音乐人企划</h3>
+                                        <a href="#" class="more">更多<b></b></a>
+                                    </div>
+                                        <div class="magazine_list">
+                                            <div class="magazine">
+                                                <a href="#">
+                                                    <img src="../images/15154768242230.jpg" title="曙光">
+                                                </a>
+                                        </div>
+                                        <div class="magazine">
+                                            <a href="#">
+                                                <img src="../images/15154767823117.jpg" title="曙光">
+                                            </a>
+                                        </div>
+                                        <div class="magazine">
+                                            <a href="#">
+                                                <img src="../images/15154767334532.jpg" title="曙光">
+                                            </a>
+                                        </div>
+                                        <div class="magazine last">
+                                            <a href="#">
+                                                <img src="../images/15119249152590.jpg" title="曙光">
+                                            </a>
+                                        </div>
+                                </div>
+                            </div>
+                            <!-- 合作媒体 -->
+                            <div class="partner_wrapper">
+                                <div class="title">
+                                    <h3>合作媒体</h3>
+                                </div>
+                                <div class="partner_list">
+                                    <div class="partner">
+                                        <a href="#"><img src="../images/tb1bb67gfxxxxbcxfxx538etxxx-170-130.jpg" alt=""></a>
+                                    </div>
+                                    <div class="partner">
+                                        <a href="#"><img src="../images/tb1g02.gfxxxxamxpxx538etxxx-170-130.jpg" alt=""></a>
+                                    </div>
+                                    <div class="partner">
+                                        <a href="#"><img src="../images/tb1pocxgfxxxxcixxxx538etxxx-170-130.jpg" alt=""></a>
+                                    </div>
+                                    <div class="partner last">
+                                        <a href="#"><img src="../images/tb1cpl6gfxxxxa9xvxx538etxxx-170-130.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 右边小盒子 -->
+                        <div class="extra_right">
+                            <div class="join">
+                                <a href="#" title="虾米音乐人入驻"></a>
+                            </div>
+                            <div class="recommend_wrapper">
+                                <div class="title">
+                                    <h3>编辑推荐</h3>
+                                    <div class="title_play">
+                                        <b class="play"></b>
+                                    </div>
+                                </div>
+                                <div class="recommend_list">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <div class="song">
+                                                    <div class="img ">
+                                                        <a href="#" title="sea odyssey">
+                                                            <img src="../images/1pjx.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="foin">
+                                                        <p><a href="#" title="sea odyssey">sea odyssey</a></p>
+                                                        <p><a href="#" title="狮子侠">狮子侠</a></p>
+                                                    </div>
+                                                </div>
+                                                <div class="song">
+                                                        <div class="img hide">
+                                                            <a href="#" title="Loosehead">
+                                                                <img src="../images/2pjx.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="foin">
+                                                            <p><a href="#" title="Loosehead">Loosehead</a></p>
+                                                            <p><a href="#" title="WAV">WAV</a></p>
+                                                        </div>
+                                                </div>
+                                                <div class="song">
+                                                        <div class="img hide">
+                                                            <a href="#" title="Dreamin'">
+                                                                <img src="../images/3pjx.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="foin">
+                                                            <p><a href="#" title="Dreamin'">Dreamin'</a></p>
+                                                            <p><a href="#" title="PSYKHON">PSYKHON</a></p>
+                                                        </div>
+                                                </div>
+                                                <div class="song">
+                                                        <div class="img hide">
+                                                            <a href="#" title="追寻自己">
+                                                                <img src="../images/4pjx.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="foin">
+                                                            <p><a href="#" title="追寻自己">追寻自己</a></p>
+                                                            <p><a href="#" title="Shawee">Shawee</a></p>
+                                                        </div>
+                                                </div>
+                                                <div class="song">
+                                                        <div class="img hide">
+                                                            <a href="#" title="敢问路在何方">
+                                                                <img src="../images/5pjx.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="foin">
+                                                            <p><a href="#" title="敢问路在何方">敢问路在何方</a></p>
+                                                            <p><a href="#" title="方拾贰">方拾贰</a></p>
+                                                        </div>
+                                                </div>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="recommend_wrapper">
+                                    <div class="title">
+                                        <h3>新歌排行</h3>
+                                        <div class="title_play">
+                                            <b class="play"></b>
+                                        </div>
+                                        <a href="#" class="more">
+                                            更多<b></b>
+                                        </a>
+                                    </div>
+                                    <div class="recommend_list">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <div class="song">
+                                                        <div class="img ">
+                                                            <a href="#" title="生僻字">
+                                                                <img src="../images/6pjx.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="foin">
+                                                            <p><a href="#" title="生僻字">生僻字</a></p>
+                                                            <p><a href="#" title="陈柯宇">陈柯宇</a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="song">
+                                                            <div class="img hide">
+                                                                <a href="#" title="岁月神偷">
+                                                                    <img src="../images/7pjx.png" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="foin">
+                                                                <p><a href="#" title="岁月神偷">岁月神偷</a></p>
+                                                                <p><a href="#" title="金玟岐">金玟岐</a></p>
+                                                            </div>
+                                                    </div>
+                                                    <div class="song">
+                                                            <div class="img hide">
+                                                                <a href="#" title="成都'">
+                                                                    <img src="../images/8pjx.png" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="foin">
+                                                                <p><a href="#" title="成都'">成都'</a></p>
+                                                                <p><a href="#" title="赵雷">赵雷</a></p>
+                                                            </div>
+                                                    </div>
+                                                    <div class="song">
+                                                            <div class="img hide">
+                                                                <a href="#" title="123我爱你">
+                                                                    <img src="../images/9pjx.png" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="foin">
+                                                                <p><a href="#" title="123我爱你">123我爱你</a></p>
+                                                                <p><a href="#" title="新乐尘符">新乐尘符</a></p>
+                                                            </div>
+                                                    </div>
+                                                    <div class="song">
+                                                            <div class="img hide">
+                                                                <a href="#" title="浪子回头">
+                                                                    <img src="../images/10pjx.png" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="foin">
+                                                                <p><a href="#" title="浪子回头">浪子回头</a></p>
+                                                                <p><a href="#" title="茄子蛋">茄子蛋</a></p>
+                                                            </div>
+                                                    </div>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w">
+                <div class="content">
+                        <div class="sitemap left">
+                                <dl>
+                                        <dt>关于</dt>
+                                        <dd><a title="关于我们" href="#">关于我们</a></dd>
+                                        <dd><a title="虾米招聘" href="#" >虾米招聘</a><sup class="hot"></sup></dd>
+                                        <dd><a title="独立音乐人合作" href="#">独立音乐人合作</a></dd>
+                                        <dd><a title="联系我们" href="#">联系我们</a></dd>
+                                        <dd><a title="友情链接" href="#">友情链接</a></dd>
+                                        <dd><a title="知识产权声明及隐私权政策" href="#">知识产权声明及隐私权政策</a></dd>
+                                        <dd><a title="版权投诉" href="#">版权投诉</a></dd>
+                                </dl>
+                                <dl>
+                                        <dt>特色服务</dt>
+                                        <dd><a title="虾米 VIP" href="#">虾米 VIP</a></dd>
+                                        <dd><a title="虾米播播" href="#">虾米播播</a></dd>
+                                        <dd><a title="音乐专题" href="#">音乐专题</a></dd>
+                                </dl>
+                                <dl>
+                                        <dt>虾米客户端</dt>
+                                        <dd><a title="虾米 for iPhone" href="#">虾米 for iPhone</a><sup class="hot"></sup></dd>
+                                        <dd><a title="虾米 for Android" href="#">虾米 for Android</a></dd>
+                                        <dd><a title="虾米 for Windows" href="#">虾米 for Windows</a></dd>
+                                        <dd><a title="虾米 for Mac" href="#">虾米 for Mac</a></dd>
+                                        <dd><a title="虾米 for iPad" href="#">虾米 for iPad</a></dd>
+                                </dl>
+                                <dl>
+                                        <dt>更多</dt>
+                                        <dd><a title="分类找歌" href="#">分类找歌</a></dd>
+                                        <dd><a title="帮助中心" href="#">帮助中心</a></dd>
+                                        <dd><a title="添加虾米还没有的资料" href="#">添加虾米还没有的资料</a></dd>
+                                        <dd><a title="提交大家想要的专辑" href="#">提交大家想要的专辑</a></dd>
+                                        <dd><a title="音频上传" href="#">音频上传</a></dd>
+                                        <dd><a title="MV上传" href="#">MV上传</a></dd>
+                                        <dd><a title="添加歌词" href="#">添加歌词</a></dd>
+                                    </dl>
+                        </div>   
+                </div>
+                <div class="ali_group">
+                        <a href="#" >阿里巴巴集团</a>
+                        <a href="http://www.alibaba.com" >阿里巴巴国际站</a>
+                        <a href="http://www.1688.com" >阿里巴巴中国站</a>
+                        <a href="http://www.aliexpress.com" >全球速卖通</a>
+                        <a href="http://www.taobao.com" >淘宝网</a>
+                        <a href="http://www.tmall.com" >天猫</a>
+                        <a href="http://ju.taobao.com" >聚划算</a>
+                        <a href="http://www.etao.com" >一淘</a>
+                        <a href="http://www.alimama.com" >阿里妈妈</a>
+                        <a href="http://www.fliggy.com">飞猪</a>
+                        <a href="http://www.aliyun.com">阿里云计算</a>
+                        <a href="http://www.alios.cn" >AliOS</a>
+                        <a href="http://aliqin.tmall.com">阿里通信</a>
+                        <a href="http://www.laiwang.com/" >来往</a>
+                        <a href="http://www.alipay.com" >支付宝</a>
+                        <a href="http://www.net.cn" >万网</a>
+                        <a href="http://www.autonavi.com/">高德</a>
+                        <a href="http://www.uc.cn/">优视</a>
+                        <a href="http://www.umeng.com/" >友盟</a>
+                        <a href="http://kanbox.com/" >酷盘</a>
+                        <a href="http://www.xiami.com">虾米</a>
+                        <a href="http://www.alibabaplanet.com/">阿里星球</a>
+                        <a href="http://www.dingtalk.com/?lwfrom=20150205111444391">钉钉</a>
+                        <a href="http://www.aligames.com/">阿里游戏</a>
+                </div>
+                <div class="extra">
+                        <div class="sns">
+                                关注虾米：
+                                <a href="#" title="新浪微博"><b class="icon sina"></b></a>
+                                <a href="#" title="人人网"><b class="icon renren"></b></a>
+                                <a href="#" title="QQ 空间"><b class="icon qzone"></b></a>
+                                <a href="#" title="腾讯微博"><b class="icon tqq"></b></a>
+                                <a href="#" title="豆瓣"><b class="icon douban"></b></a>
+                        </div>
+                        <div class="emark" style="float:right;margin-left:5px;">
+                            <a href="#">
+                                <img src="../images/tb17zifhpxxxxxcxvxxgezzgpxx-40-40.png">
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            © 2007-2019 
+                            <a href="#">杭州阿里巴巴音乐科技有限公司</a>
+                             - 
+                            <a href="#" title="网站地图">网站地图</a> 
+                            <br>
+                            <a href="#" >浙网文[2018]3192-218号</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#" title="浙ICP备18050417号-2">浙ICP备18050417号-2</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;阿里巴巴旗下网站</div>
+                </div>
+        </div>
+    </div>
+    <!-- 固定导航 -->
+    <div id="sidebutton">
+        <a href="#" class="sidebutton_newsite">
+            <img class="newsite_icon" src="../images/11pjx.png">
+            <img class="newsite_xm" src="../images/12pjx.png">
+            <img class="newsite_beta" src="../images/13pjx.png">
+            <span>体验<br>新版</span>
+        </a>
+        <a href="#" class="sidebutton_qrcode">
+            <b class="sidebutton_icon"></b>
+            <span>扫二<br>维码</span>
+            <div class="sidebutton_code"><strong>虾米音乐APP</strong><img src="../images/TB1qdjNt4GYBuNjy0FnXXX5lpXa-118-118.png"><b class="sidebutton_triangle"><i>◆</i>◆</b></div>
+        </a>
+        <a class="sidebutton_gotop" href="">
+            <b class="sidebutton_icon"></b>
+            <span>返回<br>顶部</span>
+        </a>
+    </div>
+</body>
+</html>

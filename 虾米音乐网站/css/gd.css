@@ -1,0 +1,56 @@
+/* 内容区 */
+ .box {
+    width: 1200px;
+    margin: 0 auto;
+}
+.box ul {
+    width: 1300px;
+}
+.box ul li {
+    float: left;
+    width: 180px;
+    height: 260px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 24px;
+    margin-bottom: 20px;
+} 
+
+ 
+.box li p {
+    float: left;
+    margin: 16px 0 3px 0; 
+}
+
+.box li span {
+    float: left;
+    width: 136px;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box li p a ,
+.box li span a{
+    font-size: 12px;
+    color: #4A4A4A;
+}
+.box li a:hover{
+    color: red;
+}
+.box li i {
+    float: left;
+    margin:3px 0;
+}
+.box li i a {
+    font-size: 12px;
+    color: #999999;
+    font-style: normal;
+}
+.box a {
+    float: left;
+    color: #999999;
+    font-size: 12px;
+
+}

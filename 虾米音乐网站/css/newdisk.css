@@ -1,0 +1,412 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?3a2xdr');
+    src:  url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?3a2xdr') format('truetype'),
+      url('../fonts/icomoon.woff?3a2xdr') format('woff'),
+      url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-connection:before {
+    content: "\e91b";
+  }
+  .icon-mic:before {
+    content: "\e91e";
+  }
+  .icon-location:before {
+    content: "\e947";
+  }
+  .icon-location2:before {
+    content: "\e948";
+  }
+  .icon-display:before {
+    content: "\e956";
+  }
+  .icon-mobile:before {
+    content: "\e958";
+  }
+  .icon-search:before {
+    content: "\e986";
+  }
+  .icon-zoom-in:before {
+    content: "\e987";
+  }
+  .icon-zoom-out:before {
+    content: "\e988";
+  }
+  .icon-happy:before {
+    content: "\e9df";
+  }
+  .icon-cool:before {
+    content: "\e9eb";
+  }
+  .icon-cross:before {
+    content: "\ea0f";
+  }
+  .icon-checkmark:before {
+    content: "\ea10";
+  }
+  .icon-ctrl:before {
+    content: "\ea50";
+  }
+  .icon-ctrl2:before {
+    content: "\ea51";
+  }
+  .icon-ctrl3:before {
+    content: "\ea52";
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    height: 3000px;
+}
+input{
+    overflow: visible;
+    /* 这步是隐藏超过文本框的的文字 */
+    outline: none;
+    /* 这步是取消文本框自带获得焦点边框高亮 */
+}
+.nav{
+    width: 1236px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 16px;
+    position: fixed;
+    left: 62px;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+.nav .logo{
+    float: left;
+    line-height: 70px;
+}
+.nav .logo img{
+    margin-top: 20px;
+}
+.tab{
+    float: left;
+    margin-left: 45px;
+}
+.tab a{
+    color:#505861;
+    margin-left: 30px;
+}
+.tab a:hover{
+    color:#FF410F;
+}
+.search{
+    float: left;
+    position: absolute;
+    left: 960px;
+    top: 2px;
+}
+.search i{
+    cursor: pointer;
+}
+.search input{
+    border:0;
+    border-bottom: 1px solid #4a4a4a;
+    width: 105px;
+    color: #ccc;
+    position: absolute;
+    top: 26px;
+    left: -104px;
+}
+.search .icobigger{
+    font-family: 'icomoon';
+}
+.login{
+    width: 80px;
+    height: 24px;
+    float: right;
+}
+.mask{
+    display: none;
+    background-color: #fff;
+    opacity: 0.9;
+    width: 1300px;
+    height: 3000px;
+    margin-top: 32px;
+    position: absolute;
+    z-index:999;
+}
+.arr{
+    position: fixed;
+    left: 1300px;
+    top: 500px;
+    display: none;
+    cursor: pointer;
+}
+.login a{
+    color: #505861;
+    cursor: pointer;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+.country{
+    width: 530px;
+    height: 40px;
+    /* border:1px solid #ccc; */
+    line-height: 40px;
+}
+.country span{
+    font-size: 24px;
+    font-weight: 700;
+    /* margin-right: 20px; */
+}
+.country a{
+    display: inline-block;
+    height: 36px;
+    margin-left: 40px;
+    font-size: 16px;
+    color:#505861;
+    transition: border 0.3s
+}
+
+.current{
+    border-bottom: 2px solid #000;
+}
+.allstyle{
+    width: 600px;
+    height: 38px;
+    /* border: 1px solid #ccc; */
+    margin-top: 28px;
+    position: relative;
+}
+.allstyle>a{
+    color:#505861;
+    display: inline-block;
+    width: 122px;
+    background-color: #F2F2F2;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.allstyle>a span{
+    font-family: 'icomoon';
+    margin-left: 20px;
+    margin-top: 1px;
+}
+.allstyle .mysort{
+    width: 160px;
+    height: 112px;
+    position: absolute;
+    left: 0px;
+    top: 42px;
+    background-color: #fff;
+    padding: 4px;
+    font-size: 14px;
+    display: none;
+    z-index: 99;
+
+}
+.allstyle .mysort a {
+    display: block;
+    width: 152px;
+    height: 34px;
+    line-height: 36px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.allstyle .mysort a:hover{
+background-color: #ccc;
+}
+.allstyle .mysort a span{
+    margin-left: 6px;
+}
+.allstyle .mystyle{
+    position: absolute;
+    height: 560px;
+    width: 160px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    left:140px;
+    top:-75px;
+    display: none;
+    z-index:99;
+}
+.allstyle .mystyle a{
+    display: block;
+    width: 152px;
+    height: 34px;
+    line-height: 36px;
+    margin-left: 3px;
+    font-size: 14px;
+}
+.allstyle .mystyle a span{
+    margin-left: 6px;
+}
+.allstyle .mystyle a:hover{
+    background-color: #ccc;
+}
+.allstyle .mytime{
+    position: absolute;
+    width: 160px;
+    height: 560px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    left: 285px;
+    top: -100px;
+    display: none;
+    z-index: 99;
+}
+.allstyle .mytime a{
+    display: block;
+    height: 34px;
+    line-height: 36px;
+    font-size: 14px;   
+
+}
+.allstyle .mytime a span{
+    margin-left: 6px;
+}
+.allstyle .mytime a:hover{
+    background-color: #ccc;
+}
+.allstyle .myclass{
+    position: absolute;
+    width: 160px;
+    height: 300px;
+    border:1px solid #ccc;
+    background-color: #fff;
+    left: 430px;
+    top: -100px;
+    display: none;
+    z-index:99;
+}
+.allstyle .myclass a{
+    display: block;
+    height: 34px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.allstyle .myclass a:hover{
+    background-color: #ccc;
+}
+.allstyle .myclass a span{
+    margin-left: 6px;
+}
+.mv{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 35px;
+    overflow: hidden;
+}
+.mv ul li{
+    width: 176px;
+    height: 283px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+.mv ul li .play{
+    position: absolute;
+    left: 73px;
+    top: 70px;
+    display: none;
+    cursor: pointer;
+}
+.mv ul{
+    width: 1248px;
+}
+.mv .word{
+    margin-top: 10px;
+}
+.mv .word p{
+    font-size: 12px;
+    color: #9999B3;
+    margin-top: 6px;
+}
+.footer{
+    width: 1349px;
+    height: 350px;
+    background-color: #1A1A1A;
+    margin:0 auto;
+    padding-top: 20px;
+}
+.links {
+    width: 1173px;
+    height: 250px;
+    border-bottom: 1px solid #747374;
+    margin:0 auto;
+}
+.forxiami{
+    width: 532px;
+    height: 222px;
+    float: left;
+}
+.forxiami span{
+    font-size: 8px;
+    color:#747374;
+    margin-right: 10px;
+}
+.forxiami .computer{
+    margin-right: 22px;
+}
+.forxiami a{
+    font-size: 12px;
+    color:#fff;
+    margin-left: 6px;
+}
+.forxiami .panter{
+    vertical-align: text-top;
+}
+.app{
+    width: 323px;
+    height: 174px;
+    float: right;
+}
+.us p{
+    font-size: 12px;
+    color:#747374;
+    height: 30px;
+    line-height: 30px;
+}
+.us{
+    float: left;
+}
+.erweima p{
+    font-size: 12px;
+    color:#747374;
+    height: 30px;
+    line-height: 30px;
+}
+.erweima{
+    float: right;
+}
+.mylinks{
+    width: 1171px;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 20px;
+}

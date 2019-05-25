@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+};
+body{
+    background-color: #fff;
+    height: 3000px;
+}
+.w{
+    margin: 0 auto;
+}
+.clearfix:before,.clearfix:after { 
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+   clear:both;
+  }
+  .clearfix {
+    *zoom:1;
+  }
